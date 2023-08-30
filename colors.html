@@ -1,0 +1,22 @@
+
+<html>
+	<head>
+		<title>Colours</title>
+		<link rel="stylesheet" type="text/css" href="colours.css">
+		
+	</head>
+
+	<body>
+		<h1>Colors Which I Like</h1>
+		<button id="but"><h2>Touch me!</h2></button>
+		<script>
+			const btn=document.getElementById('but');
+			const body=document.querySelector('body');
+			const color=['green','red','blue','white','yellow'];
+			document.addEventListener('click',function(){
+			const colorIndex=parseInt(Math.random()*color.length);
+			body.style.backgroundColor=color[colorIndex];
+		});
+	</script>
+	</body>
+</html>

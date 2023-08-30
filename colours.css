@@ -1,0 +1,8 @@
+body{
+	text-align: center;
+	margin: 30%;
+}
+button{
+	cursor: pointer;
+	background-color: pink;
+}
